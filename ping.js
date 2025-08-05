@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 const targets = [
 	{
@@ -6,7 +6,7 @@ const targets = [
 		url: process.env.SUPABASE_IMAGE_URL_1,
 	},
 	{
-		name: 'Portfolio de Bruno Cercos',
+		name: 'Portfolio',
 		url: process.env.SUPABASE_IMAGE_URL_2,
 	},
 ];
